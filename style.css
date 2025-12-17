@@ -152,5 +152,55 @@ body {
     line-height: 1.6;
 }
 
+/* =========================
+   WEEK 3 - DAY 4
+   Footer & Responsiveness
+========================= */
+
+/* Footer styling */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 25px 15px;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/* Improve spacing on small screens */
+@media (max-width: 768px) {
+
+    /* Header */
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    /* Hero */
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    /* Sections padding */
+    .features,
+    .content {
+        padding: 30px 15px;
+    }
+}
+
 
 
