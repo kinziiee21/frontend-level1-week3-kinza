@@ -113,5 +113,44 @@ body {
     background-color: #0056b3;
 }
 
+/* =========================
+   WEEK 3 - DAY 3
+   Main Content Styling
+========================= */
+
+/* Features section */
+.features h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.feature-boxes {
+    margin-top: 30px;
+}
+
+.feature {
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    font-size: 16px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Content section */
+.content h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
 
 
