@@ -202,5 +202,34 @@ body {
     }
 }
 
+/* =========================
+   WEEK 3 - DAY 5
+   Cleanup & Bug Fixes
+========================= */
+
+/* Prevent horizontal scrolling */
+body {
+    overflow-x: hidden;
+}
+
+/* Consistent section spacing */
+.hero,
+.features,
+.content {
+    margin-bottom: 0;
+}
+
+/* Improve button consistency */
+button {
+    font-family: inherit;
+}
+
+/* Smooth hover transitions */
+.feature,
+.hero button,
+.nav a {
+    transition: all 0.3s ease;
+}
+
 
 
