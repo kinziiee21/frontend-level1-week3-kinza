@@ -61,3 +61,55 @@ body {
     background-color: #333;
     color: white;
 }
+
+/* =========================
+   WEEK 3 - DAY 2 STYLING
+========================= */
+
+/* Improved Header */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav a {
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+
+/* Hero Improvements */
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #444;
+}
+
+.hero button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
+
